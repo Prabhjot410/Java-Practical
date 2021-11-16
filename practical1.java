@@ -1,5 +1,5 @@
 import java.util.*;
-import java.io.*;
+
 
 
 
@@ -11,6 +11,7 @@ class practical1{
 
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
+        
 
         for(int i=0;i<t;i++)
         {
@@ -39,6 +40,7 @@ class practical1{
             }
 
         }
+        sc.close();
     }
 }
 
