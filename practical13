@@ -1,0 +1,22 @@
+abstract class alpha{
+    abstract void word();
+}
+
+class consonants extends alpha{
+    void word(){
+        System.out.println("I am a Consonant class");
+    }
+}
+class vowel extends alpha{
+    void word(){
+        System.out.println("I am a vowel class");
+    }
+}
+class ABC{
+    public static void main(String[] args){
+        alpha a = new consonants();
+        a.word();
+        alpha b = new vowel();
+        b.word();
+    }
+}
